@@ -39,3 +39,50 @@ p {
   color: #666666;
   line-height: 1.2;
 }
+
+/* Styles for Navigation Section of Home Page */
+
+.nav {
+  width: 100%;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.container {
+  width: 60%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav__brand-logo {
+  width: 2rem;
+  height: auto;
+}
+
+.nav__brand-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.nav__menu {
+  margin-left: auto;
+}
+
+.nav__menu-icon {
+  width: 1.5rem;
+  height: auto;
+  cursor: pointer;
+}
