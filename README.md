@@ -1,3 +1,3 @@
 # Shopping-List
 
-**Live Preview: [Shopping-List](moinsoft.github.io/shopping-list/)**
+**Live Preview: [Shopping-List](https://moinsoft.github.io/Shopping-List/)**
