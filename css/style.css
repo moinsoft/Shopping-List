@@ -40,12 +40,22 @@ p {
   line-height: 1.2;
 }
 
+/* Utilities */
+
 .section {
   width: 100%;
   border-radius: 0.2rem;
   background-color: #ffffff;
   margin-top: 2rem;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.align-right {
+  text-align: right;
+}
+
+.text-secondary {
+  color: #666666;
 }
 
 /* Styles for Navigation Section of Home Page */
@@ -116,4 +126,47 @@ p {
   outline: none;
   font-size: 1rem;
   color: #666666;
+}
+
+/* Table */
+
+.table {
+  margin-top: 1rem;
+}
+
+.table__table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.table__thead {
+  color: #666666;
+  border-bottom: 1px solid #efefef;
+}
+
+.table__thead th,
+.table__tbody td {
+  padding: 1.5rem 2rem;
+  width: 25%;
+  max-width: 25%;
+}
+
+.icon-button {
+  width: 1.75rem;
+  height: 1.75rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.icon-button__icon {
+  width: 100%;
+  height: auto;
+}
+
+.table__thead .custom-th {
+  padding-left: 5.95rem;
 }
